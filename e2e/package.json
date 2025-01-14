@@ -1,0 +1,30 @@
+{
+  "name": "obfuscator-webpack-plugin-e2e",
+  "private": true,
+  "scripts": {
+    "clean": "yarn w:foreach::parallel run clean",
+    "prepare": "yarn w:foreach::parallel::topological run prepare",
+    "test": "yarn w:foreach::parallel::topological run test",
+    "w:foreach": "yarn workspaces foreach --all --exclude 'obfuscator-webpack-plugin-e2e'",
+    "w:foreach::parallel": "yarn w:foreach --parallel",
+    "w:foreach::parallel::topological": "yarn w:foreach::parallel --topological-dev"
+  },
+  "devDependencies": {
+    "obfuscator-webpack-plugin": "*",
+    "rimraf": "^6.0.1",
+    "webpack": "^5.97.1"
+  },
+  "resolutions": {
+    "obfuscator-webpack-plugin": "portal:..",
+    "obfuscator-webpack-plugin-e2e-app-react": "file:./apps/react-app",
+    "obfuscator-webpack-plugin-e2e-conformance-default": "file:./conformance/default"
+  },
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "files": [],
+  "workspaces": [
+    "./apps/*",
+    "./conformance/*"
+  ]
+}

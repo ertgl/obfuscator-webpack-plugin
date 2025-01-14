@@ -1,0 +1,11 @@
+# Brace style
+allman
+
+# Browserslist
+browserslistrc
+
+# JavaScript, TypeScript, JSX
+cjsx
+ctsx
+mjsx
+mtsx
