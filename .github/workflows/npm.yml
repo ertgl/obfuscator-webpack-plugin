@@ -102,7 +102,7 @@ jobs:
         run: yarn e2e:test
 
   publish:
-    if: ${{ needs.prerequisites.outputs.should-publish == 'true' && needs.*.result == 'success' }}
+    if: ${{ needs.prerequisites.outputs.should-publish == 'true' && needs.prerequisites.result == 'success' && needs.test.result == 'success' && needs.test-e2e.result }}
     runs-on: ubuntu-latest
     needs: [prerequisites, test, test-e2e]
     permissions:
