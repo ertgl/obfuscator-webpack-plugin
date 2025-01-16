@@ -16,7 +16,7 @@
   },
   "resolutions": {
     "obfuscator-webpack-plugin": "portal:..",
-    "obfuscator-webpack-plugin-e2e-app-react": "file:./apps/react-app",
+    "obfuscator-webpack-plugin-e2e-app-nextjs": "file:./apps/nextjs",
     "obfuscator-webpack-plugin-e2e-conformance-default": "file:./conformance/default"
   },
   "exports": {
