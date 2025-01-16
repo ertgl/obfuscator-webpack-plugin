@@ -48,7 +48,7 @@ Add the plugin to the `optimization.minimizer` array in the webpack
 configuration:
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 
 module.exports = {
   optimization: {
@@ -93,7 +93,7 @@ for more information on the options.
 This example demonstrates how to specify the obfuscator options:
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 
 const domain = "example.com";
 const domainLockRedirectUrl = `https://${domain}`;
@@ -184,7 +184,7 @@ The `target` assumption can be overridden manually if necessary.
 Here is an example of how to override the assumptions:
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 
 module.exports = {
   optimization: {
@@ -210,7 +210,7 @@ the previous build. By default, unless the `hmr` assumption is set to `true`,
 the `cache` option is disabled.
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 
 module.exports = {
   optimization: {
@@ -230,7 +230,7 @@ To exclude assets from obfuscation, the `exclude` option can be set to an array
 of regular expressions that match the asset names.
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 
 module.exports = {
   optimization: {
@@ -269,7 +269,7 @@ the provided `setupHooks` function will be called for each compilation.
 The following example demonstrates how to use the `setupHooks` option:
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 
 module.exports = {
   optimization: {
@@ -386,7 +386,7 @@ The plugin can be used in conjunction with other minimizers, such as
 Example:
 
 ```js
-const ObfuscatorPlugin = require("obfuscator-webpack-plugin");
+const { ObfuscatorPlugin } = require("obfuscator-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
