@@ -2002,9 +2002,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.22":
-  version: 5.1.22
-  resolution: "@cspell/dict-npm@npm:5.1.22"
-  checksum: 10c0/419e6a5e23796197c32e43967aa02808a4c92f60ca925bd2d0a1c82ff8bbe01230087850387733fe9601da5bfb079aaf2ca31f6280eba0590bb40a14c85b020b
+  version: 5.1.23
+  resolution: "@cspell/dict-npm@npm:5.1.23"
+  checksum: 10c0/5357433bf85e929edf42e949a74c1b5a54b461d3d9532eb6fb52cf6192a7fab06170ee29256592d69db6de750c66297cc59490cc8262d6f02e60524f056814a5
   languageName: node
   linkType: hard
 
