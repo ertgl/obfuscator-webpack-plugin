@@ -1808,9 +1808,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.8"
-  checksum: 10c0/1134e95c032de8d8131f91473efad2a1b5654505888e6d27699da7a14efe57697f945917f7052783cdca76f032f62dda16748956dd06eccf153fa57cf3bad517
+  version: 2.0.9
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.9"
+  checksum: 10c0/e47b7d203ac37cc372012763ab108b8505a88bf5abfba17e965f987fa45b92db405620d4dd8585bd91d194987c0da8f25ba0ccbf9b89eb66e786a198e9962cd4
   languageName: node
   linkType: hard
 
