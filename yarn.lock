@@ -1822,9 +1822,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-gb@npm:^4.1.53":
-  version: 4.1.53
-  resolution: "@cspell/dict-en-gb@npm:4.1.53"
-  checksum: 10c0/d34e54b48de9016ab1209e5f9927d0f16622b23a30deda1d026ceaa8ce66d6f5744aa5e77748eb7983b707235d30b902918f919beb7d70091d7e3168f12454ed
+  version: 4.1.54
+  resolution: "@cspell/dict-en-gb@npm:4.1.54"
+  checksum: 10c0/68506269f0785265d3d44b535312b416c14b4b582a0ed3c51c721ae81aec0051b50f9d1de69cb89dc058a8dc95763cb83865eb878b238e25748c9a006eafe147
   languageName: node
   linkType: hard
 
