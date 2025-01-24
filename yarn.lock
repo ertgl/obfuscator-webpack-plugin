@@ -2241,14 +2241,15 @@ __metadata:
   linkType: hard
 
 "@eslint/markdown@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@eslint/markdown@npm:6.2.1"
+  version: 6.2.2
+  resolution: "@eslint/markdown@npm:6.2.2"
   dependencies:
-    "@eslint/plugin-kit": "npm:^0.2.0"
-    mdast-util-from-markdown: "npm:^2.0.1"
+    "@eslint/core": "npm:^0.10.0"
+    "@eslint/plugin-kit": "npm:^0.2.5"
+    mdast-util-from-markdown: "npm:^2.0.2"
     mdast-util-gfm: "npm:^3.0.0"
     micromark-extension-gfm: "npm:^3.0.0"
-  checksum: 10c0/592f7c1b241b3bbbb6768f81c55f4395d8979750cce06179140f6a70e38c3664308dbe9291c3a3ed998b6c8c3179576a649876da08aca41120266de9ac5c52b2
+  checksum: 10c0/f2f81c1a542b0f621831bbd98f538715aa0c55dab47d59189da6f010633c60868f52486dfd475d1beb91f4dfdc2714ff73f7c7a71b2282905aca087651aea1b9
   languageName: node
   linkType: hard
 
@@ -2259,7 +2260,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/plugin-kit@npm:^0.2.0, @eslint/plugin-kit@npm:^0.2.5":
+"@eslint/plugin-kit@npm:^0.2.5":
   version: 0.2.5
   resolution: "@eslint/plugin-kit@npm:0.2.5"
   dependencies:
@@ -5520,7 +5521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-from-markdown@npm:^2.0.0, mdast-util-from-markdown@npm:^2.0.1":
+"mdast-util-from-markdown@npm:^2.0.0, mdast-util-from-markdown@npm:^2.0.2":
   version: 2.0.2
   resolution: "mdast-util-from-markdown@npm:2.0.2"
   dependencies:
