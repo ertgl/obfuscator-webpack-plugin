@@ -364,8 +364,6 @@ export default typescriptPlugin.config([
     language: "json/json",
   },
 
-  // @ts-expect-error - Mismatched types.
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call
   ...markdownPlugin.configs.recommended.map(
     (
       /**
