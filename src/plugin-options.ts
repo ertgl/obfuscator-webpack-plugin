@@ -5,7 +5,7 @@ import type { PluginHookSetupFunction } from "./plugin-hooks";
 
 export interface ObfuscatorPluginOptions
 {
-  assumptions?: Assumptions | null ;
+  assumptions?: Assumptions | null;
   cache?: boolean | null;
   exclude?: (RegExp | string)[] | null;
   options?: null | Partial<ObfuscatorOptions>;
