@@ -3,6 +3,26 @@
 A [webpack](https://webpack.js.org/) plugin for obfuscating JavaScript code
 using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator).
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Options](#options)
+  - [Assumptions](#assumptions)
+    - [Content Security Policy (CSP)](#content-security-policy-csp)
+    - [Hot Module Replacement (HMR)](#hot-module-replacement-hmr)
+    - [Node environment](#node-environment)
+    - [Target environment](#target-environment)
+  - [Cache](#cache)
+  - [Excluding assets](#excluding-assets)
+  - [Setting up hooks](#setting-up-hooks)
+    - [Accessing hooks from other plugins](#accessing-hooks-from-other-plugins)
+  - [Using with other minimizers](#using-with-other-minimizers)
+- [Examples](#examples)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+
 ## Overview
 
 This plugin differs from the first-party
@@ -36,7 +56,8 @@ plugin in the following ways:
 
 ## Installation
 
-To install the plugin, you can use `npm` or another package manager. Make sure to install the obfuscator package as well.
+Install `javascript-obfuscator` and the plugin using `npm` or another package
+manager:
 
 ```sh
 npm install -D javascript-obfuscator obfuscator-webpack-plugin
@@ -44,7 +65,7 @@ npm install -D javascript-obfuscator obfuscator-webpack-plugin
 
 ## Usage
 
-Add the plugin to the `optimization.minimizer` array in the webpack
+Add the plugin to the **`optimization.minimizer`** array in the webpack
 configuration:
 
 ```js
@@ -86,10 +107,6 @@ The plugin accepts an options object with the following properties:
 - `test` ((RegExp | string)[]): An array of regular expressions to include
   assets for obfuscation (default: `/\.[cm]?js[x]?(?:\?.*)?$/iu`).
 
-See the
-[javascript-obfuscator documentation](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options)
-for more information on the options.
-
 This example demonstrates how to specify the obfuscator options:
 
 ```js
@@ -113,7 +130,9 @@ module.exports = {
 };
 ```
 
-See the following sections for more information on the options.
+You can refer to the
+[javascript-obfuscator documentation](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options)
+for more information on how to configure the obfuscator.
 
 ### Assumptions
 
@@ -402,11 +421,11 @@ module.exports = {
 
 ## Examples
 
-The [`e2e`](./e2e) directory in the repository contain sample packages that use
+The [`e2e`](e2e) directory in the repository contain sample packages that uses
 the plugin. As a more sophisticated example,
-[`e2e/apps/nextjs`](./e2e/apps/nextjs) basically demonstrates how to use the
-plugin with a [Next.js](https://nextjs.org) application where both the server
-and client code are obfuscated.
+[`e2e/apps/nextjs`](e2e/apps/nextjs) basically demonstrates how to use the
+plugin with a [Next.js](https://nextjs.org) application to obfuscate the
+both server-side and client-side code.
 
 ## Troubleshooting
 
