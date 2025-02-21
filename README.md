@@ -444,7 +444,6 @@ consider the following steps:
 options as `false` unless you are sure that the code can handle the renaming
 of the global variables and properties. You may try setting
 `transformObjectKeys` to `true`, since it is less likely to break the code.
-However, no guarantees can be given here.
 
 ## License
 
