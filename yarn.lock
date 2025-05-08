@@ -1930,9 +1930,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.0.10, @cspell/dict-en-common-misspellings@npm:^2.0.8":
-  version: 2.0.10
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.10"
-  checksum: 10c0/8068cd633dd0f52e4770380959e9ef3d54b15b5c063b9c532a0298c3878f17848ebffb8ca4065577a5a739dcc2415de031464f07f65b6499970b40d4b2905e00
+  version: 2.0.11
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.11"
+  checksum: 10c0/da3bc9fb18705b2bf721c8d49012fc17b726fc5c9dc1fd9b559e39e2a7d043870914a6f21b3eb397f4667c030a5bb17819b18098ef113e6ddde8143a202f22ea
   languageName: node
   linkType: hard
 
@@ -1944,16 +1944,16 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-gb@npm:^5.0.2":
-  version: 5.0.3
-  resolution: "@cspell/dict-en-gb@npm:5.0.3"
-  checksum: 10c0/04bd57a6499d9245c6e60fc8113bfaa27213e6710de38976453847d525b252537c814ee0591932a66423088e4bc7c884a96c750f2ce0406e2a99b908199ca33f
+  version: 5.0.4
+  resolution: "@cspell/dict-en-gb@npm:5.0.4"
+  checksum: 10c0/0ef1c309dfd3b986dc442295e10d6c6f20b6ad87aed66d1835b148b47286d90d548614bce992ea22a8f3e821b6aa08a0f28503fd64bd791b7e416868e0354385
   languageName: node
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.29, @cspell/dict-en_us@npm:^4.4.6":
-  version: 4.4.7
-  resolution: "@cspell/dict-en_us@npm:4.4.7"
-  checksum: 10c0/438823e8f6919d33a2bfaec34809a3cd098d93e4cf5800df7588655c9ded77f1652f1c9c4e7ef4dce3135de1f62c9c03b8555a32f27c5fdb050ac1e15a600e18
+  version: 4.4.8
+  resolution: "@cspell/dict-en_us@npm:4.4.8"
+  checksum: 10c0/3aba5c49a782b015c4573dfc4ed1a755a9450c6f068103724b43888f0d64f7db869574e6e72674ac4d4040fa2d5a1d2bdb78a63d32278567fc1c9269d06f209a
   languageName: node
   linkType: hard
 
