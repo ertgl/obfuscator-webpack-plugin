@@ -97,14 +97,14 @@ The plugin accepts an options object with the following properties:
   - **target** (`string`): Specifies the target environment (browser/node).
 - **cache** (`boolean`): Indicates whether to enable caching of the obfuscated
   code.
-- **exclude** (`[RegExp | string]()`): An array of regular expressions to exclude
+- **exclude** (`(RegExp | string)[]`): An array of regular expressions to exclude
   assets from obfuscation.
 - **options** (`object`): The options object to pass to the obfuscator.
 - **setupHooks** (`function`): A function to register hooks for customizing the
   process.
 - **stage** (`number`): Stage at which the plugin will be run
   (default: `PROCESS_ASSETS_STAGE_DEV_TOOLING`).
-- **test** (`[RegExp | string]()`): An array of regular expressions to include
+- **test** (`(RegExp | string)[]`): An array of regular expressions to include
   assets for obfuscation (default: `/\.[cm]?js[x]?(?:\?.*)?$/iu`).
 
 This example demonstrates how to specify the obfuscator options:

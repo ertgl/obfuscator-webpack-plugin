@@ -382,6 +382,15 @@ export default typescriptPlugin.config([
     },
   ),
 
+  {
+    files: [
+      PATTERN_MD,
+    ],
+    rules: {
+      "markdown/no-reversed-media-syntax": "off",
+    },
+  },
+
   ...ymlPlugin.configs["flat/recommended"].map(
     (config) =>
     {
