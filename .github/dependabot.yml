@@ -12,6 +12,9 @@ updates:
           - "@babel/*"
           - "@types/babel__*"
           - "babel-*"
+      changesets:
+        patterns:
+          - "@changesets/*"
       commitlint:
         patterns:
           - "@commitlint/*"
@@ -19,6 +22,7 @@ updates:
         patterns:
           - "@cspell/*"
           - "@eslint/*"
+          - "@types/node"
           - "eslint"
           - "eslint-*"
           - "*-eslint"
