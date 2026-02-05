@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "obfuscator-webpack-plugin": "*",
-    "rimraf": "^6.0.1",
-    "webpack": "^5.97.1"
+    "rimraf": "^6.1.2",
+    "webpack": "^5.105.0"
   },
   "resolutions": {
     "obfuscator-webpack-plugin": "portal:..",

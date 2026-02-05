@@ -1,9 +1,6 @@
 const { ok } = require("node:assert");
 const { access } = require("node:fs/promises");
-const {
-  // eslint-disable-next-line @typescript-eslint/unbound-method
-  resolve: resolvePath,
-} = require("node:path");
+const { resolve: resolvePath } = require("node:path");
 const {
   describe,
   it,
