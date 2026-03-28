@@ -13,9 +13,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": false,
     "resolveJsonModule": true,
+    "rootDir": "${configDir}",
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "types": [
+      "node"
+    ]
   }
 }
