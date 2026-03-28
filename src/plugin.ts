@@ -276,7 +276,6 @@ export class ObfuscatorPlugin
       assetName,
       outputSourceMap,
       inputSource,
-      // @ts-expect-error - Mismatched types.
       inputSourceMap,
       true,
     );
