@@ -5915,8 +5915,8 @@ __metadata:
   linkType: hard
 
 "javascript-obfuscator@npm:^5.3.0":
-  version: 5.4.1
-  resolution: "javascript-obfuscator@npm:5.4.1"
+  version: 5.4.2
+  resolution: "javascript-obfuscator@npm:5.4.2"
   dependencies:
     "@javascript-obfuscator/escodegen": "npm:2.4.1"
     "@javascript-obfuscator/estraverse": "npm:5.4.0"
@@ -5943,7 +5943,7 @@ __metadata:
     tslib: "npm:2.8.1"
   bin:
     javascript-obfuscator: bin/javascript-obfuscator
-  checksum: 10c0/ed287100018df7a048a9987e1344055eef1a00163ffd744bf91c6ff5715eee447db8d3bf89ff44c7f9da864808023e067aeacf694b2f5cd968d5310809f0a6cf
+  checksum: 10c0/3190481b37d0c0e1124847fb0914393088204e89d7501656cd6f7fa24017b8c3efc78bb9869635198c819ba53c9ad64492af53cacc3cc64dc4dc1da40ae67fcc
   languageName: node
   linkType: hard
 
