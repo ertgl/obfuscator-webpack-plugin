@@ -2868,29 +2868,60 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inversifyjs/common@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@inversifyjs/common@npm:1.3.3"
-  checksum: 10c0/8024bd48a62f7b121eb68ce2f24b65b17ea6cba90836945686b30667a2e53d76f4032e67d063edc08194f64d22487814fb2d89de3b9e43b6d6dfa5304507fbd1
+"@inversifyjs/common@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@inversifyjs/common@npm:1.5.2"
+  checksum: 10c0/f4b161ed060183ab8b9c637a616e966854cd95e3ca87614aa51a1f3812f2bb7f43a9bcc2b7d43bda78ce12259f6f51c4861f48ea74298ca587e5952ab31f2c2f
   languageName: node
   linkType: hard
 
-"@inversifyjs/core@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@inversifyjs/core@npm:1.3.4"
+"@inversifyjs/container@npm:1.15.0":
+  version: 1.15.0
+  resolution: "@inversifyjs/container@npm:1.15.0"
   dependencies:
-    "@inversifyjs/common": "npm:1.3.3"
-    "@inversifyjs/reflect-metadata-utils": "npm:0.2.3"
-  checksum: 10c0/4a357092d2387742990a1bf7d41c299365bc4431c12854b0cca4a6ae9c86c958eb464c7e83e6a6564242f155d9cbf626739150c118883a3cd7b28f9f0c30f2e5
+    "@inversifyjs/common": "npm:1.5.2"
+    "@inversifyjs/core": "npm:9.2.0"
+    "@inversifyjs/plugin": "npm:0.2.0"
+    "@inversifyjs/reflect-metadata-utils": "npm:1.4.1"
+  peerDependencies:
+    reflect-metadata: ~0.2.2
+  checksum: 10c0/7d12255b8dbe930c53a011b12b3f770365ab1f0165c278a825273f2b2acab793b4c1b713d50e0c069737f3795e63e8b6d6010cc081f228495763478bbe454048
   languageName: node
   linkType: hard
 
-"@inversifyjs/reflect-metadata-utils@npm:0.2.3":
-  version: 0.2.3
-  resolution: "@inversifyjs/reflect-metadata-utils@npm:0.2.3"
+"@inversifyjs/core@npm:9.2.0":
+  version: 9.2.0
+  resolution: "@inversifyjs/core@npm:9.2.0"
+  dependencies:
+    "@inversifyjs/common": "npm:1.5.2"
+    "@inversifyjs/prototype-utils": "npm:0.1.3"
+    "@inversifyjs/reflect-metadata-utils": "npm:1.4.1"
+  checksum: 10c0/08f2f87a95ed2cfd0abff294401f9ace54a2123d26666913d0ebe349b74554b3c3557202b1c6d3fa6eeb8646f838f570c10dafa52629eed375f9b38d31de433f
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/plugin@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@inversifyjs/plugin@npm:0.2.0"
+  checksum: 10c0/483e41cca289d6d76cec76196e9d94a677de44a1c1904eaea3338b48c1ff84cc10fb602de64bcb56e96e151a1ddc9add73ae38bd2f6ded475970f07dcc99ee83
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/prototype-utils@npm:0.1.3":
+  version: 0.1.3
+  resolution: "@inversifyjs/prototype-utils@npm:0.1.3"
+  dependencies:
+    "@inversifyjs/common": "npm:1.5.2"
+  checksum: 10c0/af31dd9c93211dfeba159524da366e25d4a9dcda87a228df8c71faa695f1834cb4037926e82ab52dcf1185c418d76979ee493a8db36bfeaebe2b84945bedf5ad
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/reflect-metadata-utils@npm:1.4.1":
+  version: 1.4.1
+  resolution: "@inversifyjs/reflect-metadata-utils@npm:1.4.1"
   peerDependencies:
-    reflect-metadata: 0.2.2
-  checksum: 10c0/372f640ef48ed65652fd1a7d672636af223f7177f72af99017830a9ce5bdd3813ad1764e61b75391164ddc34bb8c4f18fc6856f120ff0e5e8fa74ad969b1179c
+    reflect-metadata: ~0.2.2
+  checksum: 10c0/f66d271f25f797b8c55b5fcb7fdf36054288f3d3ec45ed7c00d5516b59ff70149b380eca8b93eca95a94149e2180709b3e2332474991222c5110e3e316400ebc
   languageName: node
   linkType: hard
 
@@ -5669,13 +5700,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inversify@npm:6.1.4":
-  version: 6.1.4
-  resolution: "inversify@npm:6.1.4"
+"inversify@npm:7.11.0":
+  version: 7.11.0
+  resolution: "inversify@npm:7.11.0"
   dependencies:
-    "@inversifyjs/common": "npm:1.3.3"
-    "@inversifyjs/core": "npm:1.3.4"
-  checksum: 10c0/07123b3ffd77639ae7613207c96e7338b25eb883815b53f18d2146c6a09715493a9d3ffc0c42bb9a1218c51337f86ceac758e7ad4c1cd64c9a7713b5c2d0447a
+    "@inversifyjs/common": "npm:1.5.2"
+    "@inversifyjs/container": "npm:1.15.0"
+    "@inversifyjs/core": "npm:9.2.0"
+  checksum: 10c0/688bbec7fbb0a7f209b2dec5fe748b93b4d3a12689376c3789afec8d8bb4fff2a5b81c2f7442879f92accf579dcda1e461e21a769f0a2dd61ce1f6048abab532
   languageName: node
   linkType: hard
 
@@ -5899,8 +5931,8 @@ __metadata:
   linkType: hard
 
 "javascript-obfuscator@npm:^5.3.0":
-  version: 5.4.2
-  resolution: "javascript-obfuscator@npm:5.4.2"
+  version: 5.4.3
+  resolution: "javascript-obfuscator@npm:5.4.3"
   dependencies:
     "@javascript-obfuscator/escodegen": "npm:2.4.1"
     "@javascript-obfuscator/estraverse": "npm:5.4.0"
@@ -5916,7 +5948,7 @@ __metadata:
     eslint-scope: "npm:8.4.0"
     eslint-visitor-keys: "npm:4.2.1"
     fast-deep-equal: "npm:3.1.3"
-    inversify: "npm:6.1.4"
+    inversify: "npm:7.11.0"
     js-string-escape: "npm:1.0.1"
     md5: "npm:2.3.0"
     multimatch: "npm:5.0.0"
@@ -5927,7 +5959,7 @@ __metadata:
     tslib: "npm:2.8.1"
   bin:
     javascript-obfuscator: bin/javascript-obfuscator
-  checksum: 10c0/3190481b37d0c0e1124847fb0914393088204e89d7501656cd6f7fa24017b8c3efc78bb9869635198c819ba53c9ad64492af53cacc3cc64dc4dc1da40ae67fcc
+  checksum: 10c0/18159fab0094c5431600cd1eeec5daaa05820d0466f3fddcb8b27044b42a1365a8c7bfb2de7b21a1dfee0cc1c557538fe8ecba557dd476a2bc3da4b0b31b77ce
   languageName: node
   linkType: hard
 
