@@ -2499,9 +2499,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@javascript-obfuscator/escodegen@npm:2.4.1":
-  version: 2.4.1
-  resolution: "@javascript-obfuscator/escodegen@npm:2.4.1"
+"@javascript-obfuscator/escodegen@npm:2.4.2":
+  version: 2.4.2
+  resolution: "@javascript-obfuscator/escodegen@npm:2.4.2"
   dependencies:
     "@javascript-obfuscator/estraverse": "npm:^5.3.0"
     esprima: "npm:^4.0.1"
@@ -2511,7 +2511,7 @@ __metadata:
   dependenciesMeta:
     source-map:
       optional: true
-  checksum: 10c0/556df0cb719c81a54e80d96f7a35901980f53c2fb37d1c05e672076332fa9e29c34e233667d72c9ee7e442cd26a82c0cd9c8fd88c7c1c8db4e590edf2af08ddf
+  checksum: 10c0/3516fd96e6cb17d0e73c112eb24b6f8f23ccecee14d8350c056e33a980398b61c51be3e5db3ad79a8ad3cb42382151b0d1f090529332aea86ea539d5a7b40cd3
   languageName: node
   linkType: hard
 
@@ -5277,10 +5277,10 @@ __metadata:
   linkType: hard
 
 "javascript-obfuscator@npm:^5.3.0":
-  version: 5.4.3
-  resolution: "javascript-obfuscator@npm:5.4.3"
+  version: 5.4.6
+  resolution: "javascript-obfuscator@npm:5.4.6"
   dependencies:
-    "@javascript-obfuscator/escodegen": "npm:2.4.1"
+    "@javascript-obfuscator/escodegen": "npm:2.4.2"
     "@javascript-obfuscator/estraverse": "npm:5.4.0"
     "@vercel/blob": "npm:>=0.23.0"
     acorn: "npm:8.15.0"
@@ -5305,7 +5305,7 @@ __metadata:
     tslib: "npm:2.8.1"
   bin:
     javascript-obfuscator: bin/javascript-obfuscator
-  checksum: 10c0/18159fab0094c5431600cd1eeec5daaa05820d0466f3fddcb8b27044b42a1365a8c7bfb2de7b21a1dfee0cc1c557538fe8ecba557dd476a2bc3da4b0b31b77ce
+  checksum: 10c0/aa43c27922afeefc6fd0b91fc691c50f6c4bb2925d1ef630cff83407d624f4ede5ac93aea270b8978ff000a90acf60bf633ee9e61ea9b27cd48a0d7c05a2ca52
   languageName: node
   linkType: hard
 
